@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-color: azure;
+}
+
+h1 {
+    font-family: Oswald, sans-serif;
+    color:darkolivegreen;
+}
+
+p {
+    font-family: "fira sans", sans-serif;
+}
+
+a {
+    font-weight: bold;
+    font-family: "fira sans", sans-serif;
+}
