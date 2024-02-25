@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(203, 244, 255);
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+label {
+    margin-bottom: 30px;
+}
+
+.writer {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    /* font: normal 1rem "Roboto", sans-serif; */
+}
+
+.buttons {
+    width: 100px;
+    font: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0;
+}
