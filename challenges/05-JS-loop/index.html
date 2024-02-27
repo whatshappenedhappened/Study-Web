@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Loops</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="loop-in-action.js" defer></script>
+</head>
+
+<body>
+  <h1>JavaScript 반복문 실행</h1>
+  <section id="calculator">
+    <h2>JavaScript 덧셈기</h2>
+    <p>지정된 숫자까지 모든 수의 합을 구해줍니다.</p>
+    <div class="control">
+      <label for="user-number">숫자 입력 (최소 0)</label>
+      <input type="number" id="user-number" min="0">
+    </div>
+    <button>Sum</button>
+    <p id="calculated-sum" class="output">55</p>
+  </section>
+
+  <section id="highlight-links">
+    <h2>링크 하이라이트</h2>
+    <button>Highlight All</button>
+    <p>이 (어디로도 가지 않는)<a href="">유용한 링크</a>가 강조됩니다!<br>
+      목적지가 없는 이유는 링크 자체를 테스트하기 위함이 <strong>아니기</strong> 때문이죠..<br>
+      해당 구간은 HTML이 아닌 JavaScript를 테스트합니다.</p>
+    <p>Because you can use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> (okay, this
+      link actually <strong>does</strong> lead somewhere) not
+      just for funny demos or useless examples but for real useful things - like highlighting all the links in a text.
+    </p>
+    <p>더욱 자세한 저의 작업물이 궁금하시다면 <a
+        href="https://github.com/whatshappenedhappened">여기를 클릭해주세요!</a>.</p>
+  </section>
+
+  <section id="user-data">
+    <h2>사용자 정보 출력</h2>
+    <button>Display</button>
+    <ul id="output-user-data"></ul>
+  </section>
+
+  <section id="statistics">
+    <h2>주사위 통계</h2>
+    <p>여러분의 운을 시험해 보세요!<br>
+      1부터 6중에서 원하는 수를 입력한 뒤 몇 번 굴려야 그 수가 나오는지 봅시다.
+    </p>
+    <div class="control">
+      <label for="user-target-number">나오길 원하는 숫자</label>
+      <input type="number" min="1" max="6" id="user-target-number">
+    </div>
+    <button>주사위 굴리기</button>
+    <ul id="dice-rolls"></ul>
+    <p>숫자 <span id="output-target-number" class="output">Y</span>까지 <span id="output-total-rolls" class="output">X</span>번 굴렸습니다!</p>
+  </section>
+</body>
+
+</html>

@@ -22,16 +22,16 @@
 // secondParagraph.innerHTML = "Changed Paragraph!";
 // secondParagraph.innerHTML += "<br>I got you!";
 
-let newLink = document.createElement('a');
-newLink.href = "https://www.google.com"
-newLink.textContent = "New Link!";
+// let newLink = document.createElement('a');
+// newLink.href = "https://www.google.com"
+// newLink.textContent = "New Link!";
 
-let firstParagraph = document.querySelector('p');
-firstParagraph.appendChild(newLink);
+// let firstParagraph = document.querySelector('p');
+// firstParagraph.appendChild(newLink);
 
-let header = document.querySelector('h1');
-header.remove();
+// let header = document.querySelector('h1');
+// header.remove();
 
-firstParagraph.parentElement.append(firstParagraph);
+// firstParagraph.parentElement.append(firstParagraph);
 
 
