@@ -27,7 +27,7 @@ function savePlayerConfig(event) {
     // 간단한 유효성 검사
     if (!enteredPlayerName) {
         event.target.firstElementChild.classList.add('error');
-        errorsOutput.textContent = "Please enter a valid name!";
+        errorsOutput.textContent = "유효하지 않은 이름입니다!";
         return;
     }
 
@@ -37,4 +37,7 @@ function savePlayerConfig(event) {
     // 승자 출력에 사용할 배열에 플레이어 이름 저장
     players[editedPlayer - 1].name = enteredPlayerName;
     console.log(players[editedPlayer - 1]);
+
+    // 저장후 닫기
+    closePlayerConfig();
 }

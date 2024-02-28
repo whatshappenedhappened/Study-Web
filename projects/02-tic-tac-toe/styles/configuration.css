@@ -67,6 +67,15 @@
     color: rgb(94, 4, 167);
 }
 
+#start-game-btn {
+    width: 97%;
+    box-sizing: border-box;
+    padding: 15px 0;
+    text-transform: uppercase;
+    /* margin: 1rem; */
+    font-size: 24px;
+}
+
 .player-symbol {
     font-size: 2rem;
     font-weight: bold;
