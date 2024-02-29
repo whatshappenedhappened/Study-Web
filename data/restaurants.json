@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Kim's Fine dining",
+        "address": "allos street",
+        "cuisine": "Korean",
+        "website": "https://kimsquisine.co.kr",
+        "description": "Awesome!"
+    },
+    {
+        "name": "Yoon's Kitchen",
+        "address": "mojave street",
+        "cuisine": "Franch",
+        "website": "https://yoonkitchen.net",
+        "description": "It was fantastic!"
+    }
+]
