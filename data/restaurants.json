@@ -30,5 +30,13 @@
         "website": "https://bongboyage.com",
         "description": "Owner was a bit salty but the food taste amazing!",
         "id": "22af417c-cf88-423c-8645-d2e0448a043d"
+    },
+    {
+        "name": "Park-Tastic",
+        "address": "Sadang Street 7, Seoul",
+        "cuisine": "Asian Fusion",
+        "website": "https://park-tastic.net",
+        "description": "The concept of the restaurant is bit weird but the food taste actually awesome!",
+        "id": "a54ed549-beb9-4359-8819-25675e4077c4"
     }
 ]
