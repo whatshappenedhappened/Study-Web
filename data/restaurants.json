@@ -1,5 +1,6 @@
 [
     {
+        "id": "r1",
         "name": "Kim's Fine dining",
         "address": "allos street",
         "cuisine": "Korean",
@@ -7,10 +8,27 @@
         "description": "Awesome!"
     },
     {
+        "id": "r2",
         "name": "Yoon's Kitchen",
         "address": "mojave street",
         "cuisine": "Franch",
         "website": "https://yoonkitchen.net",
         "description": "It was fantastic!"
+    },
+    {
+        "id": "r3",
+        "name": "Lee's Deep Dish Pizza",
+        "address": "Welcome Street 5, Siheung",
+        "cuisine": "Italian",
+        "website": "https://deepdishlee.com",
+        "description": "I thinks this restaurant is the best!"
+    },
+    {
+        "name": "Bong's Boyage",
+        "address": "Noryang Street5, Seoul",
+        "cuisine": "German",
+        "website": "https://bongboyage.com",
+        "description": "Owner was a bit salty but the food taste amazing!",
+        "id": "22af417c-cf88-423c-8645-d2e0448a043d"
     }
 ]
