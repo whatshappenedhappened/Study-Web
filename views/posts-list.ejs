@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('includes/head', { title: '전체 글 보기' }) %>
+  <link rel="stylesheet" href="/styles/posts.css">
+</head>
+
+<body>
+  <%- include('includes/header') %>
+  <main id="all-posts">
+    <h1>전체 글 (<%= post_count.count %>)</h1>
+    <% if (!posts || posts.length === 0) { %>
+      <p>게시글이 존재하지 않습니다 - 첫 게시물의 주인공이 되어 보세요!</p>
+      <a class="btn" href="/new-post">작성하기</a>
+    <% } else { %>
+      <ol id="posts-list">
+        <% for (const post of posts) { %>
+            <%- include('includes/post-item', {post : post}) %>
+        <% } %>
+      </ol>
+    <% } %>
+  </main> 
+</body>
+
+</html>
